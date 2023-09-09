@@ -3,6 +3,7 @@ import componentsImage from "./assets/images/components.png";
 import stateImage from "./assets/images/state.png";
 import eventsImage from "./assets/images/events.png";
 import { ChakraProvider } from "@chakra-ui/react";
+import { DetailsCard } from "./components/DetailsCard.js";
 
 const concepts = [
   {
@@ -34,13 +35,7 @@ function App() {
           <h1>Key React Concepts</h1>
           <p>Selected key React concepts you should know about</p>
         </header>
-        <ul id="concepts">
-          <li className="concept">
-            <img src="TODO: IMAGE" alt="TODO: TITLE" />
-            <h2>TODO: TITLE</h2>
-            <p>TODO: DESCRIPTION</p>
-          </li>
-        </ul>
+        <DetailsCard></DetailsCard>
       </div>
     </ChakraProvider>
   );
