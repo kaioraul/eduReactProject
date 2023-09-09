@@ -1,6 +1,6 @@
 import { Card, CardHeader } from "@chakra-ui/react";
 
-export default function DetailsCard() {
+function DetailsCard() {
   return (
     <Card className="concept">
       <img src="TODO: IMAGE" alt="TODO: TITLE" />
@@ -10,3 +10,5 @@ export default function DetailsCard() {
     </Card>
   );
 }
+
+export { DetailsCard };
